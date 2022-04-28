@@ -75,7 +75,7 @@ git clone https://github.com/fw876/helloworld.git package/helloworld
 #openclash
 git clone https://github.com/vernesong/OpenClash.git package/OpenClash
 
-#luci-app-adguardhome
+#adguardhome
 git clone https://github.com/rufengsuixing/luci-app-adguardhome.git package/luci-app-adguardhome
 
 ##############################################################################################
@@ -85,6 +85,8 @@ git clone https://github.com/rufengsuixing/luci-app-adguardhome.git package/luci
 #文件助手
 svn co https://github.com/kiddin9/openwrt-packages/trunk/luci-app-fileassistant package/luci-app-fileassistant
 
+#zerorier
+svn co https://github.com/kiddin9/openwrt-packages/trunk/luci-app-zerotier package/luci-app-zerotier
 ##############################################################################################
 
 # 网络
