@@ -37,7 +37,7 @@ git clone https://github.com/kenzok78/luci-theme-argonne.git package/luci-theme-
 #  系统
 
 #定时重启
-#git clone https://github.com/f8q8/luci-app-autoreboot.git package/luci-app-autoreboot
+git clone https://github.com/f8q8/luci-app-autoreboot.git package/luci-app-autoreboot
 
 #ttyd lede包已有
 
@@ -51,11 +51,12 @@ git clone https://github.com/esirplayground/luci-app-poweroff.git package/luci-a
 
 ##############################################################################################
 
-# 服务
-
 #docker
 git clone https://github.com/lisaac/luci-app-dockerman.git package/luci-app-dockerman
 
+##############################################################################################
+
+# 服务
 #ShadowSocksR Plus+
 git clone https://github.com/fw876/helloworld.git package/helloworld
 
@@ -64,8 +65,8 @@ git clone https://github.com/xiaorouji/openwrt-passwall.git package/openwrt-pass
 git clone -b luci https://github.com/xiaorouji/openwrt-passwall.git package/luci-app-passwall
 
 #passwall2
-#git clone https://github.com/xiaorouji/openwrt-passwall.git package/openwrt-passwall
-#git clone https://github.com/xiaorouji/openwrt-passwall2.git package/openwrt-passwall2
+git clone https://github.com/xiaorouji/openwrt-passwall.git package/openwrt-passwall
+git clone https://github.com/xiaorouji/openwrt-passwall2.git package/openwrt-passwall2
 
 #helloword
 git clone https://github.com/jerrykuku/luci-app-vssr.git package/luci-app-vssr
